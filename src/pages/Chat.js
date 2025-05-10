@@ -44,7 +44,7 @@ export default function Chat() {
   };
 
   return (
-    <div style={{ padding: "1rem", background: "#ffb300", height: "110vh" }}>
+    <div style={{ padding: "1rem", background: "#ffb300", height: "150vh" }}>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <h1
           style={{
@@ -88,6 +88,11 @@ export default function Chat() {
           placeholder="Enter your prompt…"
           value={prompt}
           onChange={(e) => setPrompt(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") {
+              handleGenerate();
+            }
+          }}
           style={{ width: "50%", height: "2rem", borderRadius: 5 }}
         />
 
