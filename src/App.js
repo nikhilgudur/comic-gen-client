@@ -1,7 +1,7 @@
-import React from 'react';
-import { Routes, Route, Link } from 'react-router';
-import Home from './pages/Home';
-import Chat from './pages/Chat';
+import React from "react";
+import { Routes, Route } from "react-router";
+import Home from "./pages/Home";
+import Chat from "./pages/Chat";
 
 export default function App() {
   return (
