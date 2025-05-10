@@ -1,0 +1,41 @@
+{
+    "task_id": "a9369ad5-0a65-4448-8db2-c9d86be8f786",
+    "prompt": "a chef cooking some meal in the kitchen and the customer loving the food",
+    "num_panels": 4,
+    "status": "done",
+    "completed": 4,
+    "panels": [
+        {
+            "panel": 1,
+            "story": "The chef is prepping a delicious meal in the kitchen while a customer stands outside waiting patiently.",
+            "dialogue": "- **Customer:** \"Hi! I'll be right there when you're done.\"\n- **Chef:** (smiling) \"Thank you, I appreciate it.\"",
+            "image_prompt": "A bustling kitchen with a stove glowing softly, steam rising from a pot. The chef is efficiently chopping vegetables and placing them in a steaming pan. Outside, a customer waits patiently under a sign that says \"Coming Soon.\" They hold a menu in one hand and a confident smile on their face.",
+            "image_path": "output\\ComfyUI_00030_.png",
+            "progress": 0
+        },
+        {
+            "panel": 2,
+            "story": "The chef transfers the ingredients to a hot pot, slowly bringing the sauce to a boil while the customer watches curiously inside.",
+            "dialogue": "- **Customer:** (smiling) \"The smell is amazing!\"\n- **Chef:** (nodding) \"You'll love it when it's ready.\"",
+            "image_prompt": "The kitchen is still alive with activity. A large pot over high heat, simmering sauce bubbling gently on top. Steam slowly rising from the pot into the air. The customer inside watches the progress, their expression wide-eyed and full of anticipation.",
+            "image_path": "output\\ComfyUI_00031_.png",
+            "progress": 0
+        },
+        {
+            "panel": 3,
+            "story": "As the meal is served, the customer looks at the food and says something heartfelt.",
+            "dialogue": "- **Customer:** \"This tastes even better than I expected!\"\n- **Chef:** (grinning) \"I knew it would be good.\"",
+            "image_prompt": "A wooden table set with plates. The main dish is elegantly presented on a plate, its color vibrant and aroma enticing. The customer sits across from the chef, their face lighting up as they take a small bite. Steam rising from their mouth as they savor the meal.",
+            "image_path": "output\\ComfyUI_00032_.png",
+            "progress": 0
+        },
+        {
+            "panel": 4,
+            "story": "The customer pays for the meal and leaves with the food still hot in front of them.",
+            "dialogue": "- **Customer:** (smiling) \"I'll definitely come back!\"\n- **Chef:** (grinning) \"Thank you! That means a lot.\"",
+            "image_prompt": "The customer exits the kitchen holding a plate of food still warm. They walk out onto a bustling street, people chatting and moving about. The background shows a vibrant cityscape with bright lights and busy streetscapes. The customer stands tall, radiating confidence in their meal experience.",
+            "image_path": "output\\ComfyUI_00033_.png",
+            "progress": 0
+        }
+    ]
+}

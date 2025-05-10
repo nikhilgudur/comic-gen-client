@@ -1,0 +1,155 @@
+.homeWrapper {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.homeCard {
+  position: relative;
+  background: #ffb300;
+  height: 100vh;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.homeMain {
+  display: grid;
+  grid-template-columns: 1fr 300px 1fr;
+  align-items: center;
+  margin-top: 2rem;
+  position: relative;
+}
+
+/* Banner + text overlay */
+.bannerWrapper {
+  position: relative;
+  grid-column: 1 / 4;
+  justify-self: center;
+}
+.banner {
+  max-width: 80%;
+  display: block;
+  margin-left: 200px;
+}
+.bannerText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 3rem;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+  color: #333;
+  font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+  bottom: -55px;
+}
+
+/* Stars & girls overlay */
+.starsWrapper {
+  grid-column: 2 / 3;
+  position: relative;
+  width: 250px;
+  margin-top: -2rem;
+}
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+.characters {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: auto;
+}
+
+/* Side text & create button */
+.homeText {
+  grid-column: 1 / 2;
+  align-self: start;
+  padding-top: 2rem;
+  position: absolute;
+  top: 300px;
+}
+.homeText h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.75rem;
+  color: #333;
+}
+.homeText p {
+  margin: 0 0 1.5rem;
+  color: #222;
+  line-height: 1.4;
+}
+
+/* Pink button with overlay text */
+.pinkButtonWrapper {
+  position: relative;
+  display: inline-block;
+  top: -100px;
+  left: 1000px;
+}
+.createBtn {
+  display: block;
+  max-width: 160px;
+  cursor: pointer;
+}
+.pinkButtonText {
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  font-size: 1.25rem;
+  color: white;
+  font-weight: bold;
+  pointer-events: none;
+  font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+  color: #333;
+  font-size: medium;
+}
+
+.homeDescription {
+  /* grid-column: 3 / 4; */
+  /* padding-left: 2rem; */
+  font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+}
+
+.share {
+  font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+}
+
+/* Footer (unchanged) */
+.homeFooter {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+.footerLine {
+  flex: 1;
+  height: 3px;
+  background: #333;
+}
+.footerHashtags {
+  display: flex;
+  margin: 0 1rem;
+}
+.footerHashtags span {
+  width: 2rem;
+  height: 2rem;
+  background: #7ae7f7;
+  color: #333;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0.25rem;
+  border: 2px solid #333;
+}
