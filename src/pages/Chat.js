@@ -9,7 +9,10 @@ export default function Chat() {
   const [error, setError] = useState("");
 
   const handleGenerate = async () => {
-    if (!prompt) return;
+    if (!prompt) {
+      setError("Please enter a prompt.");
+      return;
+    }
     setLoading(true);
     setError("");
     setPanels([]);
